@@ -1,2 +1,2 @@
 # NaverBoostCourse
-Naver Boost Course Practice HTML : Table
+Naver Boost Course Practice HTML/CSS
