@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo element</title>
+    <style>
+      p::before {
+        color: blue;
+        content: "cupiditate vitae officiis repellendus optio!";
+      }
+      p::after {
+        color: purple;
+        content: "cupiditate vitae officiis repellendus optio!";
+      }
+      p::first-line {
+        color: red;
+        content: "cupiditate vitae officiis repellendus optio!";
+      }
+      p::first-letter {
+        color: yellow;
+        content: "cupiditate vitae officiis repellendus optio!";
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quia consequatur quisquam fuga vitae molestias, omnis id cumque odio labore, repellendus quod! Ratione quibusdam aliquid
+      cupiditate vitae officiis repellendus optio!
+    </p>
+  </body>
+</html>
