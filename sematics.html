@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sematics</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p class="color hot">red</p>
+    <p class="cool color">blue</p>
+    <p class="colorful nature">rainbow</p>
+  </body>
+</html>
+
+<!-- 부분 속성값
+
+/* 공백으로 구분된 요소 적용.*/
+
+p[class~="color"] {
+  font-style: italic;
+}
+
+/* 시작하는 클래스명 요소 적용.*/
+
+p[class^="color"] {
+  font-style: italic;
+}
+
+/* 끝나는 클래스명 요소 적용.*/
+
+p[class$="color"] {
+  font-style: italic;
+}
+
+/*클래스명을 포함하는 모든 요소 적용.*/
+
+p[class*="color"] {
+  font-style: italic;
+}
+
+-->
